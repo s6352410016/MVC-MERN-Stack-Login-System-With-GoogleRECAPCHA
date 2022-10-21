@@ -21,7 +21,7 @@ function Register() {
         if(!fullname || !username || !password || !email){
             setMsg('Input is required.');
         }else{
-            fetch('https://boiling-sea-33142.herokuapp.com/register' , {
+            fetch('https://secure-dusk-44324.herokuapp.com/register' , {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

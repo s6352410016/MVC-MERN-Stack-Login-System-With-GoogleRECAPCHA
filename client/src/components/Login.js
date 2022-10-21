@@ -20,7 +20,7 @@ function Login() {
         if(!UsernameOrEmail || !password){
             setMsg('Input is required.');
         }else{
-            fetch('https://boiling-sea-33142.herokuapp.com/login' , {
+            fetch('https://secure-dusk-44324.herokuapp.com/login' , {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

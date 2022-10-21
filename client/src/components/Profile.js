@@ -7,7 +7,7 @@ function Profile() {
     const [info , setInfo] = useState('');
     
     const auth = () => {
-        fetch('https://boiling-sea-33142.herokuapp.com/auth' , {
+        fetch('https://secure-dusk-44324.herokuapp.com/auth' , {
             method: 'GET',
             headers: {
                 'x-access-token': localStorage.getItem('token')
