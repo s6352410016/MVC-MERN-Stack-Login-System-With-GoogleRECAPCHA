@@ -7,7 +7,7 @@ function Profile() {
     const [info , setInfo] = useState('');
     
     const auth = () => {
-        fetch('https://secure-dusk-44324.herokuapp.com/auth' , {
+        fetch('https://dull-puce-hedgehog.cyclic.app/auth' , {
             method: 'GET',
             headers: {
                 'x-access-token': localStorage.getItem('token')

@@ -23,7 +23,7 @@ function Forgot() {
       if(password !== verifyPassword){
         setMsg('Password do not match.');
       }else{
-        fetch('https://secure-dusk-44324.herokuapp.com/forgotpassword' , {
+        fetch('https://dull-puce-hedgehog.cyclic.app/forgotpassword' , {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json'

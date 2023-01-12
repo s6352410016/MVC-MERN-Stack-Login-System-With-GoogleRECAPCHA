@@ -21,7 +21,7 @@ function Register() {
         if(!fullname || !username || !password || !email){
             setMsg('Input is required.');
         }else{
-            fetch('https://secure-dusk-44324.herokuapp.com/register' , {
+            fetch('https://dull-puce-hedgehog.cyclic.app/register' , {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

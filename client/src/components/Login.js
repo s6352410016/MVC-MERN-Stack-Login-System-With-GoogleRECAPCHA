@@ -20,7 +20,7 @@ function Login() {
         if(!UsernameOrEmail || !password){
             setMsg('Input is required.');
         }else{
-            fetch('https://secure-dusk-44324.herokuapp.com/login' , {
+            fetch('https://dull-puce-hedgehog.cyclic.app/login' , {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
