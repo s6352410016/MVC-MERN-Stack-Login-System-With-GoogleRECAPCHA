@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const dbUrl = process.env.DATABASE;
 
-mongoose.connect(dbUrl , {
+await mongoose.connect(dbUrl , {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
