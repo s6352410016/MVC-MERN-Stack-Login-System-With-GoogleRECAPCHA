@@ -13,7 +13,7 @@ const register = async (req , res) => {
             password: password_hash,
             email: email
         });
-        saveData.save();
+        await saveData.save();
         const token = await jwt.sign(
             {data: saveData.fullname},
             process.env.SECRETKEY,
